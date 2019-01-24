@@ -1,4 +1,4 @@
-import psycopg2, bleach
+import psycopg2
 from config import *
 
 def get_three_popular_articles():

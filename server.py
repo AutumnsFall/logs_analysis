@@ -1,4 +1,4 @@
-from flask import Flask, request, redirect, url_for
+from flask import Flask
 from logsdb import get_three_popular_articles, get_most_popular_article_author, get_error_leads
 from index import *
 
