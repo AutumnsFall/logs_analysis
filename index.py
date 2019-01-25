@@ -1,4 +1,4 @@
-HTML_WRAP = ''' 
+HTML_WRAP = '''
 <!DOCTYPE html>
 <html>
 <head>
@@ -9,7 +9,7 @@ HTML_WRAP = '''
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
 	<style>
-		
+
 	.mg-top {
 		margin-top: 20px;
 	}
@@ -27,14 +27,14 @@ HTML_WRAP = '''
 		<div class="col-md-12">
 			<table class="table table-hover">
 				<thead>
-					<tr> 
-						<th>Article Name</th> 
-						<th>View</th> 
-					</tr> 
-				</thead> 
-				<tbody> 
+					<tr>
+						<th>Article Name</th>
+						<th>View</th>
+					</tr>
+				</thead>
+				<tbody>
 					%s
-				</tbody> 
+				</tbody>
 			</table>
 		</div>
 		<div>
@@ -43,14 +43,14 @@ HTML_WRAP = '''
 		<div class="col-md-12 mg-top">
 			<table class="table table-hover">
 				<thead>
-					<tr>  
-					   	<th>Author Name</th> 
-					   	<th>Total Views</th> 
-					</tr> 
-				</thead> 
-				<tbody> 
+					<tr>
+					   	<th>Author Name</th>
+					   	<th>Total Views</th>
+					</tr>
+				</thead>
+				<tbody>
 					%s
-				</tbody> 
+				</tbody>
 			</table>
 		</div>
 		<div>
@@ -59,14 +59,14 @@ HTML_WRAP = '''
 		<div class="col-md-12 mg-top">
 			<table class="table table-hover">
 				<thead>
-					<tr> 
-					   	<th>Date</th> 
-					   	<th>Last Name</th> 
-					</tr> 
-				</thead> 
-				<tbody> 
+					<tr>
+					   	<th>Date</th>
+					   	<th>Last Name</th>
+					</tr>
+				</thead>
+				<tbody>
 					%s
-				</tbody> 
+				</tbody>
 			</table>
 		</div>
 
@@ -78,8 +78,8 @@ HTML_WRAP = '''
 
 ARTICLES_ROW = '''
 <tr>
-	<td>%s</td> 
-	<td>%s</td> 
+	<td>%s</td>
+	<td>%s</td>
 </tr>
 '''
 
@@ -98,7 +98,7 @@ ERRORS_ROW = '''
 '''
 
 EMPTY_RETURN = '''
-<tr>	
+<tr>
 	<td>Not Avilable</td>
 	<td>Not Avilable</td>
 </tr>

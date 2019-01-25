@@ -1,2 +1,1 @@
 DBNAME = "news"
-
