@@ -123,13 +123,13 @@ You can export the data with
 
 You can either run with the server or reuse the functions provided.
 
-####To run the server, 
+#### To run the server, 
 
 > python3 server.py
 
 And go to 0.0.0.0:8000/
 
-#####To reuse the code
+##### To reuse the code
 
 You can reuser the code from logsdb.py. 
 
@@ -142,7 +142,6 @@ from logsdb import *
 
     articles = get_three_popular_articles()
     ... do more
-
 `
 
 Enjoy
