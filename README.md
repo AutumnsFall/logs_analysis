@@ -135,13 +135,9 @@ You can reuser the code from logsdb.py.
 
 Example : assume the following file is your code. you can import and use it like below.
 
-`
-from logsdb import *
-
+`from logsdb import *
 ... do something
-
     articles = get_three_popular_articles()
-    ... do more
-`
+    ... do more`
 
 Enjoy
